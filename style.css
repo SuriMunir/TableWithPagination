@@ -1,0 +1,22 @@
+.form {
+  border-bottom: 1px solid #d8d8d8;
+  border-top: 1px solid #d8d8d8;
+  padding: 0.5rem;
+}
+
+.size label {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.size-select {
+  border: 1px solid #d8d8d8;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.bg-primary th{
+   color: #fff;
+}

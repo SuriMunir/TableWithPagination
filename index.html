@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <title>Pagination</title>
+  </head>
+  <body>
+    <div class="container mt-3">
+      <h1 class="text-center" id="title">Pagination</h1>
+      <p id="description">
+        This is a pagination project where in data is shown in a table with
+        pagination
+      </p>
+      <form class="form">
+        <div class="form-group m-0 size">
+          <label for="sizeInput"> No. of Items to Display: </label>
+          <select name="sizeInput" id="size" class="ml-2 size-select">
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+          </select>
+        </div>
+      </form>      
+    <div class="container table-responsive">
+      <div>
+        <table class="table table-bordered table-striped mt-3">
+          <thead class="bg-primary">
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+          </thead>
+          <tbody id="data">           
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="container mt-3 d-flex justify-content-center" id="buttons">
+      <nav>
+        <ul
+          class="pagination justify-content-center btn-container"
+          id="pages"
+        ></ul>
+      </nav>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+  </body>
+</html>
